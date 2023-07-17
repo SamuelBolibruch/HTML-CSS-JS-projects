@@ -1,16 +1,65 @@
 body {
     margin: 0;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
     background-color: white;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
     background-color: white;
     margin: 0 auto;
     max-width: 600px;
-    border-radius: 10px;
+    border-radius: 25px;
     box-shadow: 0 0 20px rgb(0, 0, 0, 0.5);
+    margin-top: 50px;
 
 }
 
+h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+input {
+    text-align: center;
+    color: rgb(75 75 75);
+    margin-bottom: 15px;
+    border: 1px solid rgb(163 163 163);
+    border-radius: 7px;
+    width: 100%;
+    max-width: 250px;
+}
+
+button {
+    margin-bottom: 15px;
+    color: white;
+    background-color: rgb(37 59 255);
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    transition: background-color 0.5s ease;
+}
+
+button:hover {
+    background-color: rgb(22 35 171);
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
